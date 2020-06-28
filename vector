@@ -67,7 +67,9 @@ int main() {
 	auto it3=find(v.begin(),v.end(),11);
 	cout<<*it3<<endl;
 	
-	
+	int min = *min_element (v.begin (), v.end ());
+   	int max = *max_element (v.begin (), v.end ());
+ 	cout << min << endl << max << endl;
 	
 	return 0;
 }
